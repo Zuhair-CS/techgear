@@ -1,12 +1,12 @@
 "use client";
 
-import { Mail, Phone, Facebook, Twitter, Instagram } from "lucide-react";
+import { Mail, Phone, Facebook, Instagram, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Footer() {
   const socialIcons = [
     { Icon: Facebook, href: "#", color: "hover:text-blue-400" },
-    { Icon: Twitter, href: "#", color: "hover:text-sky-400" },
+    { Icon: X, href: "#", color: "hover:text-sky-400" },
     { Icon: Instagram, href: "#", color: "hover:text-pink-400" },
   ];
 

@@ -130,7 +130,6 @@ export default function Testimonials() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
               >
-                "
               </motion.div>
 
               {/* Stars rating */}
