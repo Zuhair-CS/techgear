@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
+    <section id = "hero" className="w-full bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <motion.div

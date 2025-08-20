@@ -34,7 +34,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-gradient-to-t from-black to-gray-900 text-gray-300 relative overflow-hidden">
+    <footer id = "contact" className="w-full bg-gradient-to-t from-black to-gray-900 text-gray-300 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0">
         <motion.div
